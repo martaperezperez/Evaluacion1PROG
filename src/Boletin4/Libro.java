@@ -41,4 +41,34 @@ public class Libro {
 
 
         }
+        public void setTitulo(String ti){
+            titulo=ti;
+        }
+        public String getTitulo(){
+            return titulo;
+        }
+        public void setAutor(String aut){
+            autor= aut;
+        }
+        public String getAutor(){
+            return autor;
+        }
+        public void setAno(int añ){
+            ano= añ;
+        }
+        public int getAno(){
+            return ano;
+        }
+        public void setNumPaginas(short np){
+            numPaginas= np;
+        }
+        public short setNumPaginas(){
+            return numPaginas;
+        }
+        public void setValoracion(float val){
+            valoracion= val;
+        }
+        public float getValoracion(){
+            return valoracion;
+        }
     }
