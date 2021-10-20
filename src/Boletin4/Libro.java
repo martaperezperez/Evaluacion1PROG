@@ -4,11 +4,11 @@ public class Libro {
 
     class Libro {
 
-        String titulo;
-        String autor;
-        int ano;
-        short numPaginas;
-        float valoracion;
+       private String titulo;
+       private String autor;
+       private int ano;
+       private short numPaginas;
+       private float valoracion;
 
         public Libro(String _titulo, String _autor, int _ano, short _numPaginas, float _valoracion){
 
