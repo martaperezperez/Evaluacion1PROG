@@ -1,8 +1,9 @@
 package Boletin4;
 
+import java.util.Scanner;
+
 public class Libro {
 
-    class Libro {
 
        private String titulo;
        private String autor;
@@ -53,8 +54,8 @@ public class Libro {
         public String getAutor(){
             return autor;
         }
-        public void setAno(int añ){
-            ano= añ;
+        public void setAno(int anyo){
+            ano= anyo;
         }
         public int getAno(){
             return ano;

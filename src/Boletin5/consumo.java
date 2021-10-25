@@ -1,7 +1,9 @@
 package Boletin5;
 
 import java.util.Scanner;
-    public class Consumo {
+
+    class Consumo {
+
         //atributos
         private float km;
         private float litros;
@@ -33,13 +35,13 @@ import java.util.Scanner;
         public float setKms(){
             return km;
         }
-        public float setLitro(){
+        public float setLitro(int i){
             return litros;
         }
         public float setvMed(){
             return vMed;
         }
-        public float setGas(){
+        public float setGas(double v){
             return pGas;
         }
 
@@ -76,4 +78,4 @@ import java.util.Scanner;
 
     }
 
-}
+

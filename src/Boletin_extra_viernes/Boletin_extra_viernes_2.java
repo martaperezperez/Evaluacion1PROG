@@ -1,5 +1,7 @@
 package Boletin_extra_viernes;
 
+import java.util.Scanner;
+
 public class Boletin_extra_viernes_2 {
     public static void main(String[] args) {
         int valorx;
@@ -17,4 +19,4 @@ public class Boletin_extra_viernes_2 {
 
 }
 
-}
+

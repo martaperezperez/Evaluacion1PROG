@@ -1,5 +1,7 @@
 package Boletin_extra_viernes;
 
+import java.util.Scanner;
+
 public class Boletin_extra_viernes_1 {
     public static void main(String[] args) {
 
@@ -14,4 +16,4 @@ public class Boletin_extra_viernes_1 {
         System.out.println("a prenda: " + prenda + " ten un prezo final de:"+ IVE);
     }
 }
-}
+

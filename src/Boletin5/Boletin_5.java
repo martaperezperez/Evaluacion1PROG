@@ -6,12 +6,15 @@ public class Boletin_5 {
         obxCon1.crearConsumo();
         obxCon1.mostrarConsumo();
 
+
+
         Consumo obxCon2= new Consumo();
-        obxCon2.setGas();
-        obxCon2.setKms();
-        obxCon2.setLitro();
-        obxCon2.setvMed();
-        obxCon2.mostrarConsumo();
+        obxCon2.setGas(1.57);
+        obxCon2.setLitro(50);
+
+
+
+
         Consumo obxCon3= new Consumo(11f,123f,23f,354f);
         obxCon3.mostrarConsumo();
 
