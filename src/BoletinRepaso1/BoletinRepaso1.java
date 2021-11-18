@@ -31,4 +31,8 @@ public class BoletinRepaso1 {
 
     Ejercicio10 obx10=new Ejercicio10();
     obx10.Ejercicio10();
+
+
+    Ejercicio11 obx11=new Ejercicio11();
+     obx11.Ejercicio11();
 }
