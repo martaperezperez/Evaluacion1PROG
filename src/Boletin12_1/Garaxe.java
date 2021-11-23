@@ -22,7 +22,7 @@ public class Garaxe {
         }
 
         eleccion = Integer.parseInt(JOptionPane.showInputDialog("1-METER \n 2-QUITAR"));
-        if(plaza<5){
+        while(plaza<5){
             switch(eleccion){
                 case 1:{
                     horaentrada= System.currentTimeMillis()/1000/60/60;
@@ -30,8 +30,9 @@ public class Garaxe {
                     dato= JOptionPane.showInputDialog(null,"Diganos su matricula");
                     this.matricula= dato;
                     plaza++;
-                    eleccion = Integer.parseInt(JOptionPane.showInputDialog("1-METER \n 2-QUITAR"));
 
+                    eleccion = Integer.parseInt(JOptionPane.showInputDialog("1-METER \n 2-QUITAR"));
+                    break;
                 }
 
                 case 2:{
@@ -53,11 +54,13 @@ public class Garaxe {
 
             }
         }
-        else if(plaza==5){
+        while (plaza==5){
             JOptionPane.showInputDialog("No hay mas plazas en el parking");
+            break;
 
         }
 
 
     }
 }
+
