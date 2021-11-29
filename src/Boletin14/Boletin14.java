@@ -2,12 +2,10 @@ package Boletin14;
 
 public class Boletin14 {
     public static void main(String[] args) {
-        Publicacion publi=new Publicacion();
-        publi.toString();
-        Libros li= new Libros();
+        Libros li=new Libros("no",01,"jjj",2003);
         li.toString();
-        Revistas re=new Revistas();
-        re.toString();
     }
+
+}
 
 }

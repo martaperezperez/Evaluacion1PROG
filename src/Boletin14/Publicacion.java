@@ -3,7 +3,7 @@ package Boletin14;
 public class Publicacion {
     private int codigo;
     private String titulo;
-    private int anopublicacion;
+    private int ano;
 
     public Publicacion() {
     }
@@ -11,23 +11,24 @@ public class Publicacion {
     public Publicacion(int codigo, String titulo, int anopublicacion) {
         this.codigo = codigo;
         this.titulo = titulo;
-        this.anopublicacion = anopublicacion;
+        this.ano = anopublicacion;
     }
 
     public int getCodigo() {
         return codigo;
     }
 
-    public int getAnopublicacion() {
-        return anopublicacion;
+    public int getAno() {
+        return ano;
     }
 
     @Override
     public String toString() {
-        return ("codigo=" + codigo + ", titulo=" + titulo + ", anopublicacion=" + anopublicacion );
+        return ("codigo=" + codigo + ", titulo=" + titulo + ", ano=" + ano );
     }
 
 
 
 }
+
 

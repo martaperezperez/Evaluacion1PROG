@@ -1,16 +1,16 @@
 package Boletin14;
 
 public class Libros extends Publicacion {
-    private boolean prestados;
+    private String prestados;
 
     public Libros() {
     }
 
-    public Libros(boolean prestados) {
+    public Libros(String prestados) {
         this.prestados = prestados;
     }
 
-    public Libros(boolean prestados, int codigo, String titulo, int anopublicacion) {
+    public Libros(String prestados, int codigo, String titulo, int anopublicacion) {
         super(codigo, titulo, anopublicacion);
         this.prestados = prestados;
     }
@@ -19,6 +19,13 @@ public class Libros extends Publicacion {
     public String toString() {
         return (super.toString() +"prestados=" + prestados);
     }
-
+    @Override
+    public int getAno(){
+        return super.getAno();
+    }
+    @Override
+    public int getCodigo(){
+        return super.getCodigo();
+    }
 }
 
