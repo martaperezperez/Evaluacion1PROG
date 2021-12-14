@@ -11,8 +11,9 @@ public class ProbasEscritas {
         System.out.println("Nota segunda prueba");
         proba2= cs.nextFloat();
     }
-    public void calcularNotasProbasEscritas(){
+    public float calcularNotasProbasEscritas(){
         resultado=(proba1+proba2)/2;
         System.out.println("La nota de las pruebas escritas son: " + resultado*0.40 );
+        return resultado;
     }
 }

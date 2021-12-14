@@ -16,8 +16,7 @@ public class Boletin17 {
         System.out.println(" Boletins: ");
         bo.Boletins();
         System.out.println(" Nota total: ");
-        bo.Boletins()+pra.calcularNotaProbaPractica()+es.calcularNotasProbasEscritas();
-
+        System.out.println((bo.Boletins()+pra.calcularNotaProbaPractica()+es.calcularNotasProbasEscritas())/3);
 
 
     }

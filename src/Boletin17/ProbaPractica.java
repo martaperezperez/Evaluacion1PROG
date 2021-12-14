@@ -6,8 +6,10 @@ public class ProbaPractica {
     public void amosarResultado(){
         System.out.println("Nota de la prueba practica");
         practica= cs.nextFloat();
+
     }
-    public void calcularNotaProbaPractica(){
+    public float calcularNotaProbaPractica(){
         System.out.println("La nota practica es: " +practica*0.04);
+        return practica;
     }
 }
