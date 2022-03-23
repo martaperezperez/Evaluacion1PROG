@@ -1,4 +1,4 @@
-package com.mycompany.boletin26;
+package Boletin26;
 
 import java.awt.FlowLayout;
 import javax.swing.JButton;

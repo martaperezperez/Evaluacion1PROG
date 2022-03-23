@@ -1,6 +1,4 @@
-
-package com.mycompany.boletin26;
-
+package Boletin26;
 
 public class Boletin26 {
 
